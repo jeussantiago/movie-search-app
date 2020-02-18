@@ -1,0 +1,84 @@
+.container {
+	height: 80vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	width: 100%;
+}
+
+header {
+	padding: 10px;
+	text-align: center;
+}
+
+.heading {
+	font-size: 50px;
+}
+
+.formContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+}
+
+form {
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 30px;
+	max-width: 750px;
+	width: 50%;
+	min-width: 600px;
+}
+
+.formGroup {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+label {
+	font-size: 25px;
+	margin-left: 15px;
+}
+
+input[type=text], input[type=password], input[type=email]{
+	padding: 16px;
+	font-size: 20px;
+	height: 50px;
+	border-radius: 100px;
+}
+
+
+.submitContainer {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+
+button[type=submit] {
+	color: #fff;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+button[type=submit]:hover {
+	opacity: 0.8;
+}
+
+.noAccContainer {
+	display: flex;
+	justify-content: center;
+}
+
+.noAccText {
+	max-width: 750px;
+	width: 50%;
+	min-width: 600px;
+	font-size: 18px;
+}

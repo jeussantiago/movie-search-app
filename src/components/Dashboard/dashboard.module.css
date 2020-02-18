@@ -1,0 +1,86 @@
+.pageContainer {
+  /* border: 1px solid blue; */
+  padding-top: 50px;
+
+}
+
+.userTitle {
+  font-size: 50px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  margin-bottom: 20px;
+}
+
+.logoutLink {
+  border: 1px solid black;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  background-color: #0275d8;
+}
+
+.logoutLink:hover {
+  color: #fff;
+  opacity: 0.80;
+}
+
+
+.movieStatsContainer {
+  border: 1px solid #696969;
+  margin: 10px;
+  box-shadow: 5px 5px #bebebe;
+  padding: 5px;
+}
+
+.listContainer {
+  /* border: 1px solid green; */
+  margin-top: 50px;
+}
+
+.listWrapper {
+  padding: 20px;
+  /* border: 1px solid purple; */
+}
+
+.listLine {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  border-style: inset;
+  border-width: 1px;
+  border-color: #000;
+}
+
+.lineButton {
+  border: none;
+}
+
+.line {
+  width: 94%;
+}
+
+.arrow {
+  /* border: 1px solid purple; */
+  margin-left: 7px;
+  transform: translateY(-3px);
+}
+
+.contentContainer {
+  padding-left: 30px;
+  padding-right: 20px;
+  /* border: 1px solid blue; */
+}
+
+.NoContentBox {
+  border: 1.5px solid black;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(167, 167, 167);
+}

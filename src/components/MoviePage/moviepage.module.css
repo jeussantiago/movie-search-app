@@ -1,0 +1,100 @@
+.moviePageWrapper {
+  height: 80vh;
+  width: 100vw;
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* position: absolute;
+  top: 50%; */
+}
+
+.movieContainer {
+  /* border: 1px solid red; */
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.movieInfoContainer {
+  margin: 10px;
+  /* border: 1px solid blue; */
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 800px;
+}
+
+.movieInfoContainer>div {
+  margin-top: 30px;
+}
+
+.movieTitle {
+  font-size: 60px;
+}
+
+.movieOverviewContainer {
+  /* border: 1px solid red; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.movieOverviewLabel {
+  font-size: 30px;
+}
+
+.movieOverview {
+  font-size: 20px;
+}
+
+.movieStats {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 50px;
+}
+
+.movieStats>div {
+  margin-right: 10px;
+  /* letter-spacing: 1px; */
+}
+
+.movieStatsLabel {
+  font-size: 22px;
+}
+
+.movieReleaseContainer>.movieStatsValue {
+  display: inline;
+}
+
+.movieStatsValue {
+  letter-spacing: 2px;
+  font-size: 18px;
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .moviePageWrapper {
+    /* border: 5px solid blue; */
+    height: auto;
+  }
+
+
+  .movieContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+  }
+
+  .movieStats {
+    flex-direction: column;
+  }
+
+  .movieStatsContainer>.movieStatsValue {
+    display: inline;
+  }
+}
